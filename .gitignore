@@ -1,0 +1,22 @@
+# Ignore all CSV files
+*.csv
+*.numbers
+
+# Ignore all Excel files
+*.xlsx
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment folders (if you're using one)
+venv/
+env/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files (uncomment if needed)
+# .vscode/
+# .idea/
