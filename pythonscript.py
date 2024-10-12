@@ -107,7 +107,7 @@ if __name__ == "__main__":
     csv_files = glob.glob(os.path.join(script_dir, "*.csv"))
     
     if len(csv_files) > 1:
-        print("ERROR: There are more than 1 .csv files in the folder. There should be exactly one .csv file in the directory!")
+        print("ERROR: There are more than 1 .csv files in the folder. Should be exactly one .csv file!")
         sys.exit(1)  # Exit the script with an error code
     
     if len(csv_files) == 0:  # Corrected line
