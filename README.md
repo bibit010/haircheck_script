@@ -96,7 +96,14 @@
 
     If everything is working well, the numbers should match perfectly... *let me know :) *
 
-14. **To run it again**: Repeat steps 1, 4, 6, 8 & 11!
-   
+14. **To run it again**: Repeat steps 1, 4, 6, 8 & 11! 
+
+   You can do this in 1 quick step by running the following in your terminal: 
+
+   ```
+   cd ~/Documents/natalia_script && source myenv/bin/activate && python3 pythonscript.py
+   ```
+
+   And press Enter. 
 
 ___
