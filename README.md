@@ -28,7 +28,8 @@
    cd Documents
    ```
    
-   And press Enter. Your terminal should return something like: *"your_macbook_name":Documents "your_macbook_user"$*
+   And press Enter. Your terminal should return something like: 
+   *"your_macbook_name":Documents "your_macbook_user"$*
 
 5. **Clone the Repository**: 
    Once you have Git, use the following command to clone the GitHub repository where the script is located:
