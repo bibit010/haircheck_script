@@ -107,16 +107,16 @@ if __name__ == "__main__":
     csv_files = glob.glob(os.path.join(script_dir, "*.csv"))
     
     if len(csv_files) > 1:
-        print("Error: There are more than 1 .csv files in the folder. There should be exactly one .csv file in the directory!")
+        print("ERROR: There are more than 1 .csv files in the folder. There should be exactly one .csv file in the directory!")
         sys.exit(1)  # Exit the script with an error code
     
     if len(csv_files) == 0:  # Corrected line
-        print("Error: There is no .csv file in the directory.")
+        print("ERROR: There is no .csv file in the directory.")
         sys.exit(1)  # Exit the script with an error code
 
     input_csv = csv_files[0]  # Use the only .csv file found
     output_excel = os.path.join(script_dir, "Haircheck_Report.xlsx")
     
-    print("Processing CSV report and generating excel for you...")
+    print("Processing CSV report and generating excel file...")
     process_haircheck_data(input_csv, output_excel)
-    print(f"Excel report has been generated: {output_excel}")
+    print(f"Excel report has been generated here: {output_excel}")
