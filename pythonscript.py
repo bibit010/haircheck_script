@@ -102,7 +102,7 @@ def process_haircheck_data(input_csv, output_excel):
 
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    
+    print("Searching for CSV files...")
     # Find the only .csv file in the directory
     csv_files = glob.glob(os.path.join(script_dir, "*.csv"))
     
@@ -117,5 +117,6 @@ if __name__ == "__main__":
     input_csv = csv_files[0]  # Use the only .csv file found
     output_excel = os.path.join(script_dir, "Haircheck_Report.xlsx")
     
+    print("Processing CSV report and generating excel for you...")
     process_haircheck_data(input_csv, output_excel)
     print(f"Excel report has been generated: {output_excel}")
