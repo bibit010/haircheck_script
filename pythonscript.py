@@ -1,6 +1,8 @@
 import pandas as pd
 import os
 from openpyxl.styles import PatternFill
+import sys
+import glob
 
 def process_haircheck_data(input_csv, output_excel):
     # Check if the input CSV file exists
@@ -100,7 +102,15 @@ def process_haircheck_data(input_csv, output_excel):
 
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_csv = os.path.join(script_dir, "Haircheck-template-22-sep-28-sep.csv")
+    
+    # Find the only .csv file in the directory
+    csv_files = glob.glob(os.path.join(script_dir, "*.csv"))
+    
+    if len(csv_files) != 1:
+        print("Error: There should be exactly one .csv file in the directory.")
+        sys.exit(1)  # Exit the script with an error code
+
+    input_csv = csv_files[0]  # Use the only .csv file found
     output_excel = os.path.join(script_dir, "Haircheck_Report.xlsx")
     
     process_haircheck_data(input_csv, output_excel)
