@@ -96,4 +96,17 @@
 
     If everything is working well, the numbers should match perfectly... *let me know :) *
 
+14. **To run it again**: Make sure your venv is activated by running:
+
+   ```
+   source myenv/bin/activate
+   ```
+
+   Once active, just run the script again by:
+
+    ```
+    python3 pythonscript.py
+    ```
+   
+
 ___

@@ -3,6 +3,11 @@ import os
 from openpyxl.styles import PatternFill
 
 def process_haircheck_data(input_csv, output_excel):
+    # Check if the input CSV file exists
+    if not os.path.isfile(input_csv):
+        print(f"Error: The file '{input_csv}' does not exist.")
+        sys.exit(1)  # Exit the script with an error code
+    
     # Read the CSV file
     df = pd.read_csv(input_csv)
     
