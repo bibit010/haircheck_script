@@ -1,52 +1,75 @@
 
+
 ### Instructions to Run the Python Script
 
-1. **Install Python**: Make sure you have Python installed. You can check by opening the Terminal (found in Applications > Utilities) and typing:
+1. **Open Terminal**: You can quickly open it by pressing `Command + Space` and typing "Terminal" to find and open it.
 
-   ```bash
+2. **Make sure you have Git installed**: You can check by typing:
+
+   ```
+   git --version
+   ```
+
+   If Git is installed, you should see a version number. If not, you can install it by downloading it from [git-scm.com](https://git-scm.com/downloads).
+
+3. **Make sure you have Python installed**: Check for Python by typing:
+
+   ```
    python3 --version
    ```
 
+If Python is installed, your Mac should returnt you a version number, something like "Python x.xx.x" if it is installed. 
+
    If you don’t have Python installed, download and install it from [python.org](https://www.python.org/downloads/).
 
-2. **Open Terminal**: Find and open the Terminal application.
+4. **Navigate to your Documents**: We will navigate to Documents to put the script into it, using the `cd` command:
 
-3. **Navigate to the Script Directory**: Use the `cd` command to change the directory to where your Python script and `requirements.txt` are located. For example:
-
-   ```bash
-   cd /path/to/your/script
+   ```
+   cd Documents
    ```
 
-   Replace `/path/to/your/script` with the actual path.
+Your terminal should return something like: 
+   ```
+   "your_macbook_name":Documents "your_macbook_user"$ 
 
-4. **Create a Virtual Environment (Optional but Recommended)**: This helps manage dependencies. Run the following command:
-
-   ```bash
-   python3 -m venv myenv
    ```
 
-   Then activate the virtual environment with:
 
-   ```bash
-   source myenv/bin/activate
+4. **Clone the Repository**: Once you have Git, use the following command to clone the GitHub repository where the script is located. 
+
+   ```
+   git clone https://github.com/bibit010/natalia_script.git
    ```
 
-5. **Install Required Packages**: Now, install the required packages using the `requirements.txt` file:
+   This will create a folder with the same name as the repository in your Documents.
 
-   ```bash
+
+5. **Navigate to the Script Directory**: Change into the directory of the cloned repository using the `cd` command. For example:
+
+   ```
+   cd natalia_script
+   ```
+
+
+
+6. **Install Required Packages**: Now, install the required packages using the `requirements.txt` file:
+
+   ```
    pip install -r requirements.txt
    ```
 
-6. **Run the Script**: Finally, run your Python script by typing:
+7. **Copy the .csv report you downloaded**: Use only .csv reports as the script is designed to only handle .csv with the report template we agreed upon. Cope or mvoe the downloaded .csv report into your mac/Documents/natalia_script folder. It is important to do this before running the script. Make sure you only have 1 single .csv report in the folder whenever running the script as it cannot differentiate between multiple files, therefore, make sure to delete .csv file from the folder after you run the script. 
 
-   ```bash
-   python3 your_script.py
+8. **Run the Script**: Finally, run your Python script by typing:
+
+   ```
+   python3 pythonscript.py
    ```
 
-   Replace `your_script.py` with the actual name of your script.
+9. **You should now find .xlsx file in your folder**: Go ahead and open the .xlsx file, this should be easily opened with Numbers, no need to install MS Excel. The Instagram&Facebook datapoints should be coloured in yellow, and the Website datapoints should be in Blue. 
 
-7. **Deactivate the Virtual Environment**: Once they are done, they can deactivate the virtual environment by simply typing:
 
-   ```bash
-   deactivate
-   ```
+10. **Please back test the script**: You should be able to do this easily by downloading .csv reports for a few past weeks and checking the .xlsx output results against your previous manual reports that you make. If everything is working well, the numbers should match perfectly.... let me know :) 
+
+---
+
