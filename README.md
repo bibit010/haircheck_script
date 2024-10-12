@@ -1,10 +1,7 @@
-
-
 ### Instructions to Run the Python Script
 
 1. **Open Terminal**: You can quickly open it by:
-   pressing `Command + Space` 
-   and typing "Terminal" to find and open it.
+   pressing `Command + Space` and typing "Terminal" to find and open it.
 
 2. **Make sure you have Git installed**: You can check by typing:
 
@@ -20,7 +17,7 @@
    python3 --version
    ```
    
-   If Python is installed, your Mac should returnt you a version number, something like "Python x.xx.x" if it is installed. 
+   If Python is installed, your Mac should return you a version number, something like "Python x.xx.x" if it is installed. 
 
    If you don’t have Python installed, download and install it from [python.org](https://www.python.org/downloads/).
 
