@@ -2,7 +2,9 @@
 
 ### Instructions to Run the Python Script
 
-1. **Open Terminal**: You can quickly open it by pressing `Command + Space` and typing "Terminal" to find and open it.
+1. **Open Terminal**: You can quickly open it by:
+   pressing `Command + Space` 
+   and typing "Terminal" to find and open it.
 
 2. **Make sure you have Git installed**: You can check by typing:
 
