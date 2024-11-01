@@ -9,7 +9,7 @@ Here's a simplified version of the steps you need to take to run your script aga
 
 **Navigate to Script Directory**: Change to your script's directory with:
    ```bash
-   cd ~/Documents/natalia_script
+   cd ~/Documents/haircheck_script
    ```
 
 **Activate the Virtual Environment**: Activate your virtual environment:
@@ -58,7 +58,7 @@ After the script runs, remember to delete the CSV file if you don't need it anym
    Once you have Git, use the following command to clone the GitHub repository where the script is located:
 
    ```
-   git clone https://github.com/bibit010/natalia_script.git
+   git clone https://github.com/bibit010/haircheck_script.git
    ```
 
    This will create a folder with the same name as the repo in your Documents.
@@ -68,7 +68,7 @@ After the script runs, remember to delete the CSV file if you don't need it anym
    Change into the directory of the cloned repository using the `cd` command:
 
    ```
-   cd natalia_script
+   cd haircheck_script
    ```
 
 6. **Create a Virtual Environment**: To keep dependencies organized, create a virtual environment by running:
@@ -94,7 +94,7 @@ After the script runs, remember to delete the CSV file if you don't need it anym
 
 9. **Copy the .csv Report You Downloaded**: It is important to only use .csv files with this script. 
 
-    The script is designed to only handle .csv file format and must have the report template we agreed upon. Copy or move the downloaded .csv file into your `Documents/natalia_script` folder. Ensure you only have **one** single .csv report in the folder whenever running the script, as it cannot differentiate between multiple files. Therefore, make sure to delete the .csv file from the folder after you run the script. 
+    The script is designed to only handle .csv file format and must have the report template we agreed upon. Copy or move the downloaded .csv file into your `Documents/haircheck_script` folder. Ensure you only have **one** single .csv report in the folder whenever running the script, as it cannot differentiate between multiple files. Therefore, make sure to delete the .csv file from the folder after you run the script. 
 
 10. **Run the Script**: Finally, run your Python script by typing:
 
