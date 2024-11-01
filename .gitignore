@@ -5,6 +5,11 @@
 # Ignore the prompt txt
 prompt.txt
 
+.DS_Store
+
+
+myenv/
+
 # Ignore all Excel files
 *.xlsx
 
