@@ -27,6 +27,7 @@ Here's a simplified version of the steps you need to take to run your script aga
 After the script runs, remember to delete the CSV file if you don't need it anymore.
 
 
+### Instructions to Install the Python Script
 
 1. **Open Terminal**: You can quickly open it by pressing:
 
