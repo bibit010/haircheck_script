@@ -2,6 +2,9 @@
 *.csv
 *.numbers
 
+# Ignore the prompt txt
+prompt.txt
+
 # Ignore all Excel files
 *.xlsx
 
